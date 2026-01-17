@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profileImg from '../assets/LinkedinImage.jpg';
 
 const Hero = ({ onContactClick }) => {
     const stats = [
@@ -31,7 +32,7 @@ const Hero = ({ onContactClick }) => {
                     <div className="absolute inset-0 bg-brand-cyan/20 rounded-full blur-2xl animate-pulse"></div>
                     <div className="relative w-full h-full rounded-full border-2 border-brand-cyan/30 p-2 bg-brand-bg backdrop-blur-sm overflow-hidden">
                         <img
-                            src="https://media.licdn.com/dms/image/v2/D4D03AQGuFEG18BnuIg/profile-displayphoto-shrink_200_200/B4DZd0T3Q1HMAY-/0/1750003055435?e=2147483647&v=beta&t=2-YK3onxmFHvD_Xum_nuFsUcaKXFaAQ8nAeU-rJpxTc"
+                            src={profileImg}
                             alt="Manish Patel"
                             className="w-full h-full object-cover rounded-full"
                             onError={(e) => {
