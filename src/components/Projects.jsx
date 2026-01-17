@@ -6,6 +6,18 @@ const Projects = () => {
     const projects = [
         {
             id: '01',
+            title: 'Service Buddy – Aditya Birla Group',
+            description: 'Service Buddy Portal is an internet-facing application used by Sales Staff to service their customers. It provides a central platform for viewing policy details, sending renewal reminders, and managing customer documentation.',
+            tags: ['AWS Oracle RDS', 'Node.js', 'React.js', 'SQL', 'Job Scheduling'],
+            achievements: [
+                'Developed stored procedures and optimized queries through indexing to meet complex business requirements.',
+                'Implemented database design changes and monitored daily DBA activities for optimal performance.',
+                'Created a robust job scheduler for automated data transfer between servers and the database.',
+                'Performed regular database cleanup and object management to maintain system health.',
+            ],
+        },
+        {
+            id: '02',
             title: 'Insurance Policy Management',
             description: 'A comprehensive insurance policy management system enabling agents to create, renew, and manage policies efficiently. Includes automated billing and renewal flows.',
             tags: ['AWS Oracle Database', 'AWS Databricks', 'Spark', 'Python', 'Git', 'SQL', 'Power BI'],
@@ -16,7 +28,7 @@ const Projects = () => {
             ],
         },
         {
-            id: '02',
+            id: '03',
             title: 'Database Migration to AWS',
             description: 'Successfully led the migration of a production-grade Oracle database to AWS RDS using AWS Schema Conversion Tool (SCT) and AWS Database Migration Service (DMS).',
             tags: ['AWS SCT', 'AWS DMS', 'AWS S3', 'VPC', 'SQL', 'AWS IAM', 'AWS EC2 Metadata'],
@@ -27,7 +39,7 @@ const Projects = () => {
             ],
         },
         {
-            id: '03',
+            id: '04',
             title: 'RIB - Data Processing & Cloud Migration',
             description: 'Data processing pipeline converting multiple data formats to standardized CSV format using Python, followed by seamless migration to cloud infrastructure.',
             tags: ['Python', 'SQL', 'Git', 'Data Migration', 'Spark', 'SQL'],
