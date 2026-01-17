@@ -16,8 +16,10 @@ const About = () => {
         },
         {
             title: 'Data Warehousing',
-            description: 'Designing and maintaining centralized billing and accounting data warehouses with Snowflake.',
+            // description: 'Designing and maintaining centralized billing and accounting data warehouses with Snowflake.',
+            description: 'Experienced in working with AWS Redshift for building data warehouses and performing analytical queries.',
             icon: <Monitor className="text-brand-cyan" size={24} />,
+
         },
         {
             title: 'Database Migration',
