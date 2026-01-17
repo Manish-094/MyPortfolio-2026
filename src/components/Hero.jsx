@@ -5,7 +5,7 @@ import profileImg from '../assets/LinkedinImage.jpg';
 const Hero = ({ onContactClick }) => {
     const stats = [
         { label: 'Years Experience', value: '2.5+' },
-        { label: 'Major Projects', value: '3' },
+        { label: 'Major Projects', value: '4' },
         { label: 'AWS Services', value: '10+' },
         { label: 'AWS Certification', value: '1' },
     ];
