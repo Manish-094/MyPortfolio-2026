@@ -62,7 +62,8 @@ const Journey = () => {
                                         <div className="flex items-center gap-4 text-white/50 font-bold">
                                             <span>AWS DATA ENGINEER</span>
                                             <span className="w-1 h-1 rounded-full bg-brand-cyan"></span>
-                                            <span>REMOTE</span>
+                                            <span>CONTCENTRIC IT SERVICES PRIVATE LIMITED
+                                            </span>
                                         </div>
                                     </div>
                                     <div className="px-6 py-3 rounded-xl bg-white/5 border border-white/10 text-sm font-black text-brand-cyan tracking-widest shadow-xl">

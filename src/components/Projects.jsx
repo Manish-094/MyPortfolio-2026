@@ -8,7 +8,7 @@ const Projects = () => {
             id: '01',
             title: 'Insurance Policy Management',
             description: 'A comprehensive insurance policy management system enabling agents to create, renew, and manage policies efficiently. Includes automated billing and renewal flows.',
-            tags: ['Azure SQL Database', 'Azure Data Factory', 'Azure Databricks', 'Spark', 'Python', 'Git', 'SQL', 'Power BI'],
+            tags: ['AWS Oracle Database', 'AWS Databricks', 'Spark', 'Python', 'Git', 'SQL', 'Power BI'],
             achievements: [
                 'Designed and maintained database systems for insurance policy data with focus on data integrity and security.',
                 'Implemented Power BI for generating reports and insights.',

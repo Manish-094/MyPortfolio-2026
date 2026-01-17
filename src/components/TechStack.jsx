@@ -16,11 +16,11 @@ const TechStack = () => {
         },
         {
             category: 'Databases',
-            items: ['MySQL', 'PostgreSQL', 'Snowflake'],
+            items: ['MySQL', 'PostgreSQL', 'Oracle'],
         },
         {
             category: 'Data & AI Tools',
-            items: ['Power BI', 'Advanced Tableau', 'Matplotlib', 'Microsoft Fabric', 'QuickSight'],
+            items: ['Power BI', 'QuickSight'],
         },
         {
             category: 'Data Modeling',
