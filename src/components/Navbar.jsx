@@ -27,13 +27,14 @@ const Navbar = ({ onContactClick }) => {
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
-                <motion.div
+                <motion.a
+                    href="/"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
-                    className="text-2xl font-bold text-brand-cyan tracking-tighter"
+                    className="text-2xl font-bold text-brand-cyan tracking-tighter hover:opacity-80 transition-opacity cursor-pointer flex items-center"
                 >
                     MP.
-                </motion.div>
+                </motion.a>
 
                 {/* Desktop Nav */}
                 <div className="hidden md:flex space-x-8">
